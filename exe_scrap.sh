@@ -1,4 +1,5 @@
 #!/bin/bash
+source venv/Scripts/activate
 rm output/google_patents.csv
 start_time="$(date -u +%s)"
 python multiprocess_scraper.py 
